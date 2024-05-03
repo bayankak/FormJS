@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FormWithJs</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+</head>
+
+<body style="background-color: #eee;">
+    <div class="container mt-5">
+        <!-- <button onclick="addRowToTable()" class="btn btn-primary my-5 add-new-button">
+              Add new row
+          </button> -->
+
+        <div>
+            <div class="my-3">
+                <label style="color: rgb(104, 38, 103); font-size: 20px; ">First-Name</label>
+                <input type="text" class="form-control firstName " />
+            </div>
+            <div class="my-3">
+                <label style="color: rgb(104, 38, 103); font-size: 20px; ">Last-Name</label>
+                <input type="text" class="form-control lastName" />
+            </div>
+            <div class="my-3">
+                <label style="color: rgb(104, 38, 103); font-size: 20px; ">Age</label>
+                <input type="text" class="form-control age" />
+            </div>
+            <div class="my-3">
+                <label style="color: rgb(104, 38, 103); font-size: 20px; ">City</label>
+                <input type="text" class="form-control city" />
+            </div>
+        </div>
+        <div style="display: flex; justify-content: end;"> <button class="btn btn-light  add-new-button "><i class=" fa fa-user-plus " aria-hidden="true " style="font-size:30px; color: rgb(180, 65, 157); "></i>
+        </div>
+
+
+        </button>
+
+            <table class="table table-bordered my-5 ">
+                <thead>
+                    <tr>
+                        <th scope="col " style="color: rgb(108, 31, 81); ">#</th>
+                        <th scope="col " style="color: rgb(108, 31, 81); ">First-Name</th>
+                        <th scope="col " style="color: rgb(108, 31, 81); ">Last-Name</th>
+                        <th scope="col " style="color: rgb(108, 31, 81); ">Age</th>
+                        <th scope="col " style="color: rgb(108, 31, 81); ">City</th>
+                        <th scope="col " style="color: rgb(108, 31, 81); ">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz " crossorigin="anonymous "></script>
+
+        <script src="main.js "></script>
+</body>
+
+</html>
